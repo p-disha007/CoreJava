@@ -8,7 +8,7 @@ public class SecondWay implements Runnable{
 		Thread th=new Thread(t);
 		th.start();//runnable state
 		//th.start();//illegal thread state exception
-		th.run();
+		th.run(); //it will act as a normal method calling
 
 	}
 
